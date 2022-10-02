@@ -1,0 +1,20 @@
+.jumboEdit {
+    font-weight:600;
+    font-size: 64px;
+}
+
+.flexWrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cardEdit {
+    display: flex;
+    justify-content: space-between;
+    min-width: fit-content;
+    min-height: fit-content;
+    max-width: 215px;
+    max-height: 215px;
+    margin: 30px;
+    box-shadow: 0px 3px 6px rgba(66, 41, 17, 0.65);
+}

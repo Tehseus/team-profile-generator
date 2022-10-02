@@ -5,10 +5,17 @@ class Manager extends Employee {
         super(name, id, email, `Manager`)
         this.officeNumber = officeNumber
     }
+    getRole() {
+        return "Manager"
+    }
+
+    getOfficeNum() {
+        return this.officeNumber
+    }
 }
 
-const test = new Manager(`Max`,`420`, `test@test.com`, 69)
+// const test = new Manager(`Max`,`420`, `test@test.com`, 69)
 
-console.log(test);
+// console.log(test);
 
-module.exports = Employee;
+module.exports = Manager;
