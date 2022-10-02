@@ -5,7 +5,7 @@ describe('Get github', () => {
     
         const github = "githubuser"
       
-      const obj = new Engineer("korbyn", 1, "test@test.com", github);
+      const obj = new Engineer("Grayson", 1, "test@test.com", github);
       console.log(obj);
       
       expect(obj.getGitHub()).toEqual(github);
@@ -18,7 +18,7 @@ describe('Get role', () => {
     
         const github = "githubuser"
       
-      const obj = new Engineer("korbyn", 1, "test@test.com", github);
+      const obj = new Engineer("Grayson", 1, "test@test.com", github);
 
       
       expect(obj.getRole()).toEqual("Engineer");

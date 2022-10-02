@@ -3,7 +3,7 @@ const Employee = require("../lib/Employee");
 describe('Get Name', () => {
     it("should display data from entries", () => {
 
-      const text = 'Korbyn';
+      const text = 'Grayson';
 
       const obj = new Employee(text);
 

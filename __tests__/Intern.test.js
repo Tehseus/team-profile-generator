@@ -5,7 +5,7 @@ describe('Get the interns school info', () => {
         
       const text = "school";
 
-      const obj = new Intern("Korbyn", 1, "test@test.com", "school");
+      const obj = new Intern("Grayson", 1, "test@test.com", "school");
 
       expect(obj.getSchool()).toEqual(text);
     })
@@ -17,7 +17,7 @@ describe('Get the role', () => {
         
       const text = "school";
 
-      const obj = new Intern("Korbyn", 1, "test@test.com", "school");
+      const obj = new Intern("Grayson", 1, "test@test.com", "school");
 
       expect(obj.getRole()).toEqual("Intern");
     })
