@@ -1,6 +1,7 @@
 .jumboEdit {
     font-weight:600;
     font-size: 64px;
+    background-color: coral;
 }
 
 .flexWrap {
@@ -13,10 +14,12 @@
     justify-content: space-between;
     min-width: fit-content;
     min-height: fit-content;
-    max-width: 215px;
-    max-height: 215px;
+    max-width: 230px;
+    max-height: 230px;
     margin: 30px;
 }
-.jumbotron {
-    background-color: cornflowerblue;
+
+.bg-info {
+    background-color: coral;
+    height: 120px;
 }

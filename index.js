@@ -66,7 +66,7 @@ const anotherEmployee = () => {
             case "Intern":
                 addIntern()
                 break;
-            case "No, I'm finished":
+            case "No, that's all.":
                 pushNewEmployee()
             }
         })
