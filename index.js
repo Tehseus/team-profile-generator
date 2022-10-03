@@ -53,7 +53,7 @@ const anotherEmployee = () => {
             choices: [
                 "Engineer",
                 "Intern",
-                "No, I'm finished"
+                "No, that's all."
             ],
             name: "employeeAdd",
 
@@ -76,25 +76,25 @@ const anotherEmployee = () => {
         return inquirer.prompt([
             {
                 type: "input",
-                message: "Enter engineers name",
+                message: "Enter the engineer's name",
                 name: "engineerName"
                 
             },
             {
                 type: "input",
-                message: "Enter new engineer employee ID",
+                message: "Enter the new engineer's employee ID",
                 name: "engineerId"
                 
             },
             {
                 type: "input",
-                message: "Enter new engineer email",
+                message: "Enter the new engineer's email",
                 name: "engineerEmail"
                 
             },
             {
                 type: "input",
-                message: "Enter engineers GitHub username",
+                message: "Enter engineer's GitHub username",
                 name: "engineerGit"
                 
             },
@@ -110,25 +110,25 @@ const addIntern = () => {
     return inquirer.prompt([
         {
             type: "input",
-            message: "Enter interns name",
+            message: "Enter intern's name",
             name: "internName"
             
         },
         {
             type: "input",
-            message: "Enter new intern employee ID",
+            message: "Enter the new intern's employee ID",
             name: "internId"
             
         },
         {
             type: "input",
-            message: "Enter new intern email",
+            message: "Enter the new intern's email address",
             name: "internEmail"
             
         },
         {
             type: "input",
-            message: "Name of school the new intern attends",
+            message: "Name of the school the new intern attends",
             name: "internSchool"
             
         },
@@ -142,7 +142,7 @@ const addIntern = () => {
 }
 
 const pushNewEmployee = () => { 
-    fs.writeFileSync("./dist/imgs/index.html", generateHtml(employeeBucket), (err) => err ? console.log("You missed some fields, please start over") : console.log("html created"))
+    fs.writeFileSync("./dist/imgs/index.html", generateHtml(employeeBucket), (err) => err ? console.log("Please start over, you seem to have missed some fields. Thanks!") : console.log("html created"))
     
 }
 
