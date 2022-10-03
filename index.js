@@ -142,7 +142,7 @@ const addIntern = () => {
 }
 
 const pushNewEmployee = () => { 
-    fs.writeFileSync("./dist/index.html", generateHtml(employeeBucket), (err) => err ? console.log("You missed some fields, please start over") : console.log("html created"))
+    fs.writeFileSync("./dist/imgs/index.html", generateHtml(employeeBucket), (err) => err ? console.log("You missed some fields, please start over") : console.log("html created"))
     
 }
 
